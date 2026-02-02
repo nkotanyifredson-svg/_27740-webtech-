@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive personal portfolio website</title>
+    <!-- custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Image: To add your background photo, update the CSS file (style.css) 
+         Look for "body::before" and change the background-image URL to your image path -->
+
+    <header>
+        <nav class="navbar">
+            <a href="#HOME" class="logo">port<span>folio</span></a>
+            <ul>
+                <li><a href="#HOME" class="active">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#SKILLS">SKILLS</a></li>
+               <!-- <li><a href="#SERVICE">SERVICE</a></li>-->
+                <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
+            </ul>
+            <a href="#" class="cvbtn">Download cv<i class="fa-solid fa-download"></i></a>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--hello section-->
+    <section id="HOME" class="hero-container">
+        <div class="hero-image">
+            <img src="./nkotanyi/nkotaaa.jpeg" class="animated-image" alt="Nkotanyi Fred">
+        </div>
+        <div class="hero-content">
+            <h3>Hello, I'm</h3>
+            <h1>Nkotanyi fred</h1>
+            <h2>And I'm <span class="typing-text">networking student</span></h2>
+            <p>Passionate IT student focused on networking, linux, java programing, system administration, and modern web technologies.</p>
+        
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a> 
+            </div>
+            <div class="hero-btn">
+                <a href="#CONTACT" class="btn">Hire me</a>
+                <a href="#CONTACT" class="btn">Contact me</a>
+            </div>
+        </div>  
+    </section>
+
+    <!--stats section-->
+    <section class="stats">
+        <div class="stat">
+            <h2>3+</h2>
+            <span>years of <br> experiance</span>
+        </div>
+        <div class="stat">
+            <h2>15+</h2>
+            <span>Project <br> completed</span>
+        </div>
+        <div class="stat">
+            <h2>5+</h2>
+            <span>technologies <br> mastered</span>
+        </div>
+        <div class="stat">
+            <h2>50+</h2>
+            <span>satified <br> clients</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="ABOUT" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>TI am an aspiring IT professional with skills in web development, <br> system administration, and basic cybersecurity. <br> I have experience working with HTML, CSS, JavaScript, PHP, and MySQL, <br> and I enjoy creating functional and user-friendly systems. <br> I am always eager to learn, grow,<br> and contribute to innovative technology solutions..</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="SKILLS" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+             <p>HTML, CSS, JavaScript,<br>PHP & MySQL
+Basic Networking <br> Cybersecurity
+Linux & Virtual Machines <br>
+Problem Solving & Teamwork.</p>
+        </div>
+    </section>
+
+    <!-- Service Section -
+    <section id="SERVICE" class="section">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p>This is the services section. Add your services here.</p>
+        </div>
+    </section>
+-->
+
+    <!-- Portfolio Section -->
+    <section id="PORTFOLIO" class="section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p>Website Design & Development <br>
+Database Design (MySQL) <br>
+Basic Cybersecurity & Network Setup <br>
+System Installation (Linux/Windows) <br>
+Technical Support & Troubleshooting</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="CONTACT" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p> 📧 Email: nkotanyifredson@gmail.com <br>
+
+📞 Phone: +250 784 441 314 <br>
+
+🌐 LinkedIn: linkedin.com/in/nkotanyifred <br>
+
+📍 Location: kigali, Rwanda</p
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
